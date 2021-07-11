@@ -1,5 +1,5 @@
 {% set name = "spyder-screencast" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.14" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/spyder-screencast-{{ version }}.tar.gz
-  sha256: e1ff3be93f45f2e46de2ed77682bead27e1536f3cd3924bd4733c55078f9c3db
+  sha256: 3e9785b86c54e4b745aa0978068210847237babc6231cab7c5c22070aa162153
 
 build:
   number: 0
